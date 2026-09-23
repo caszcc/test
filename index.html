@@ -3,46 +3,12 @@
 <head>
   <meta charset="utf-8">
 
-  <title>CASZ — Discord Component Embed</title>
+  <title>CASZ</title>
 
   <meta
     name="description"
     content="Una preview personalizada de CASZ para Discord."
   >
-
-  <!-- Discord Component Embed -->
-  <script id="discord:component-embed" type="application/json">
-  {
-    "component": {
-      "type": 17,
-      "accent_color": 5793266,
-      "components": [
-        {
-          "type": 10,
-          "content": "# CASZ"
-        },
-        {
-          "type": 10,
-          "content": "Esta es una preview personalizada de **test.casz.cc**."
-        },
-        {
-          "type": 14,
-          "spacing": 1
-        },
-        {
-          "type": 10,
-          "content": "Probando Discord Component Embeds 🚀"
-        },
-        {
-          "type": 2,
-          "style": 5,
-          "label": "Abrir CASZ",
-          "url": "https://casz.cc"
-        }
-      ]
-    }
-  }
-  </script>
 
   <!-- Open Graph fallback -->
   <meta property="og:title" content="CASZ">
@@ -51,6 +17,46 @@
     content="Una preview personalizada de CASZ para Discord."
   >
   <meta property="og:url" content="https://test.casz.cc/">
+
+  <!-- Discord Component Embed -->
+  <script id="discord:component-embed" type="application/json">
+{
+  "component": {
+    "type": 17,
+    "accent_color": 5793266,
+    "components": [
+      {
+        "type": 10,
+        "content": "# CASZ"
+      },
+      {
+        "type": 10,
+        "content": "Esta es una preview personalizada de **test.casz.cc**."
+      },
+      {
+        "type": 14,
+        "spacing": 1,
+        "divider": true
+      },
+      {
+        "type": 10,
+        "content": "Probando Discord Component Embeds 🚀"
+      },
+      {
+        "type": 1,
+        "components": [
+          {
+            "type": 2,
+            "style": 5,
+            "label": "Abrir CASZ",
+            "url": "https://casz.cc"
+          }
+        ]
+      }
+    ]
+  }
+}
+  </script>
 </head>
 
 <body>
