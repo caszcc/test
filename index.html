@@ -1,25 +1,11 @@
-<!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
+<meta property="og:title" content="Test" />
+<meta property="og:description" content="test test test test test test test T-E-S-T" />
+<meta property="og:image" content="https://i.imgur.com/r5v3mLU.jpeg" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="theme-color" content="#5865f2" />
 
-  <title>CASZ</title>
-
-  <meta
-    name="description"
-    content="Una preview personalizada de CASZ para Discord."
-  >
-
-  <!-- Open Graph fallback -->
-  <meta property="og:title" content="CASZ">
-  <meta
-    property="og:description"
-    content="Una preview personalizada de CASZ para Discord."
-  >
-  <meta property="og:url" content="https://test.casz.cc/">
-
-  <!-- Discord Component Embed -->
-  <script id="discord:component-embed" type="application/json">
+<script id="discord:component-embed" type="application/json">
 {
   "component": {
     "type": 17,
@@ -27,20 +13,25 @@
     "components": [
       {
         "type": 10,
-        "content": "# CASZ"
-      },
-      {
-        "type": 10,
-        "content": "Esta es una preview personalizada de **test.casz.cc**."
+        "content": "# Test\ntest test test test test test test"
       },
       {
         "type": 14,
-        "spacing": 1,
-        "divider": true
+        "spacing": 2
       },
       {
         "type": 10,
-        "content": "Probando Discord Component Embeds 🚀"
+        "content": "T-E-S-T"
+      },
+      {
+        "type": 12,
+        "items": [
+          {
+            "media": {
+              "url": "https://i.imgur.com/r5v3mLU.jpeg"
+            }
+          }
+        ]
       },
       {
         "type": 1,
@@ -48,19 +39,15 @@
           {
             "type": 2,
             "style": 5,
-            "label": "Abrir CASZ",
-            "url": "https://casz.cc"
+            "url": "https://casz.cc/",
+            "label": "test",
+            "emoji": {
+              "name": "📦️"
+            }
           }
         ]
       }
     ]
   }
 }
-  </script>
-</head>
-
-<body>
-  <h1>CASZ</h1>
-  <p>Discord Component Embed test.</p>
-</body>
-</html>
+</script>
